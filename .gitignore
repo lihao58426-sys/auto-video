@@ -1,0 +1,20 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 输出目录（生成的视频，体积大）
+output/
+
+# 素材目录（原始视频/图片，体积大）
+materials/
+
+# 敏感配置
+.env
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
