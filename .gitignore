@@ -15,6 +15,9 @@ materials/
 venv/
 .venv/
 
+# 日志文件
+*.log
+
 # IDE
 .vscode/
 .idea/
