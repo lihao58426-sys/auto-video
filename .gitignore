@@ -2,6 +2,12 @@
 __pycache__/
 *.pyc
 
+# pytest 缓存
+.pytest_cache/
+
+# 数据库文件
+*.db
+
 # 输出目录（生成的视频，体积大）
 output/
 
@@ -11,12 +17,15 @@ materials/
 # 敏感配置
 .env
 
-# 虚拟环境
-venv/
-.venv/
+# Cookie
+*.json
 
 # 日志文件
 *.log
+
+# 虚拟环境
+venv/
+.venv/
 
 # IDE
 .vscode/
